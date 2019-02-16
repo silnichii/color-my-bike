@@ -1,4 +1,4 @@
-window.onload = () => {
+document.addEventListener("DOMContentLoaded", ()=>{
 
 
     const buttonType = document.querySelectorAll(".type_row div");
@@ -43,4 +43,5 @@ window.onload = () => {
             item.style.fill = color
         })
     }
-}
+
+})
